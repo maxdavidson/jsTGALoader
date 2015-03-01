@@ -1,0 +1,7 @@
+{
+  "name": "jsTGALoader",
+  "version": "1.2.1",
+  "description": "jsTGALoader - Javascript loader for TGA files",
+  "author": "Vincent Thibault",
+  "main": "tga.js"
+}
