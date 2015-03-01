@@ -1,7 +1,7 @@
  /**
  * @fileoverview jsTGALoader - Javascript loader for TGA file
  * @author Vincent Thibault
- * @version 1.2.0
+ * @version 1.2.1
  * @blog http://blog.robrowser.com/javascript-tga-loader.html
  */
 
@@ -458,7 +458,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
 
 			// Create an imageData
 		if (!imageData) {
-			if (document) {
+			if (typeof(window) === 'object') {
 				imageData = document.createElement('canvas').getContext('2d').createImageData(width, height);
 			}
 			// In Thread context ?
